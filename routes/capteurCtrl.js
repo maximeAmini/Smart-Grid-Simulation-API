@@ -1,4 +1,4 @@
-var run = require('../connect-database')
+var run = require('../database/connect-database')
 
 module.exports= {
     getAll:(req,res)=> {

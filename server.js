@@ -18,5 +18,5 @@ app.use('/',apiRouter)
 
 //démmarage
 app.listen(4000, ()=>{
-    console.log('yeah')  
+    console.log('Running on port 4000')  
 })

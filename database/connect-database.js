@@ -5,7 +5,7 @@ const { Client } = require("cassandra-driver");
 module.exports= async function run(request) {
     const client = new Client({
       cloud: {
-        secureConnectBundle: "secure-connect-capteur.zip",
+        secureConnectBundle: "database/secure-connect-capteur.zip",
       },
       credentials: {
         username: "GCjWvAYiyFoybGwXeDGJsfXp",
